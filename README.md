@@ -7,15 +7,15 @@
 [Programming:]
 
 - Basic programming skills in C/C++/Java. 
-- Programming skills in Python programming are highly recommended.
+  - Programming skills in Python programming are highly recommended.
 - Declare and use a variable.
 - Data types and limitations of each, including arrays.
 - Basic console input and output using <iostream> or <stdio.h>.
 - Basic text file input and output using <fstream> or <stdio.h>.
 - Basic string parsing using string streams <sstream> or scanf,fscanf,sscanf <stdio.h>
 - Create function prototypes and definitions.
-- Pass parameters by value and by reference.
-- Return values and references.
+  - Pass parameters by value and by reference.
+  - Return values and references.
 - Conditionals (if/else/else if)
 - Loops (while, do-while, and for)
 - Error handling (try/catch)
@@ -31,8 +31,8 @@
 
 - Use the heap using new/delete or malloc/free.
 - Standard template libraries
-- Vectors
-- Lists
+  - Vectors
+  - Lists
 - Linked lists
 - Binary search trees
 - Sets and disjoint sets
@@ -72,34 +72,38 @@
 - Files, symbolic links, hard links, and directories.
 - Memory management
 - Stack frames
-- Threading
-- Fork/wait
+  - Threading
+  - Fork/wait
 - POSIX threads (pthreads)
 - Synchronization and locking
-- Mutex
-- Semaphore
-- Conditional variables
-- Barriers
+  - Mutex
+  - Semaphore
+  - Conditional variables
+  - Barriers
 - Sockets (UNIX, SOCK_STREAM)
-- Computer Architecture
+
+= = = = = = =
+
+[Computer Architecture:]
+
 - Basic digital logic
-- Logic gates
-- Multiplexers/Demultiplexers (MUX/DEMUX)
-- Combinational logic
-- Sequential logic
-- Flip flops
-- Latches
-- Circuit equations
-- Circuit diagrams
+  - Logic gates
+  - Multiplexers/Demultiplexers (MUX/DEMUX)
+  - Combinational logic
+  - Sequential logic
+    - Flip flops
+    - Latches
+  - Circuit equations
+  - Circuit diagrams
 - Assembly programming
 - Computer pipelining
-- 5-stage “academic” pipeline
-- Pipeline hazards and solutions
+  - 5-stage “academic” pipeline
+  - Pipeline hazards and solutions
 - Branch prediction
 - Virtual memory and paging
 - Bitwise operators (&, |, ^, <<, and >>)
-- Be able to test, set, and clear individual bits
-- Be able to create a mask to test multiple bits
+  - Be able to test, set, and clear individual bits
+  - Be able to create a mask to test multiple bits
 - Binary floating point and integer arithmetic
 - Hexadecimal, decimal, octal, and binary number systems
 - Memory systems (DRAM, SRAM, register files)
