@@ -1,12 +1,11 @@
 # Computer-Science-Foundations
 
-This repository is a collection 
+- This repository is a collection of Cole Dombrowski's foundational concepts in the study of computer science. 
+- It includes notes/examples/explanations, personal research/study and personal projects.
+- The repository is sorted by the different areas of study, as listed below:
 
+[Programming:]
 
-
-
-
-Programming
 Basic programming skills in C/C++/Java. 
 Programming skills in Python programming are highly recommended.
 Declare and use a variable.
@@ -26,7 +25,10 @@ Inheritance and polymorphism
 Static, dynamic, and reinterpret casts
 C style (char []) and C++ style (string) strings
 
-Data Structures
+= = = = = = =
+
+[Data Structures:]
+
 Use the heap using new/delete or malloc/free.
 Standard template libraries
 Vectors
@@ -41,7 +43,10 @@ Heaps
 Queues
 Networks
 
-Algorithms
+= = = = = = =
+
+[Algorithms:]
+
 Binary search
 Bubble, Insertion, Selection, Quick, and Merge sorting algorithms
 Iterators
@@ -55,7 +60,10 @@ Dynamic programming
 Computability and NP-completeness
 Spanning trees
 
-Systems Programming
+= = = = = = =
+
+[Systems Programming:]
+
 System calls (fcntl, ioctl, pipe, dup[2], open, close, read, write, exit)
 Pointers and pointer arithmetic
 Subscript operator []
