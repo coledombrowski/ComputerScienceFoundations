@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+
+int main() 
+{
+    std::string employeeName;
+    std::string companyName;
+    double salary;
+
+    // Prompt for employee's name
+    
+    std::cout << "Enter employee's name: ";
+    std::getline(std::cin, employeeName);
+
+    // Prompt for company name
+    
+    std::cout << "Enter company name: ";
+    std::getline(std::cin, companyName);
+
+    // Prompt for salary
+    
+    std::cout << "Enter employee's salary: $";
+    std::cin >> salary;
+
+    // Print the gathered information
+    
+    std::cout << "\nEmployee's Name: " << employeeName << std::endl;
+    std::cout << "Company Name: " << companyName << std::endl;
+    std::cout << "Salary: $" << salary << std::endl;
+
+    // Check if the salary is over $100,000
+    
+    if (salary > 100000) 
+    {
+        std::cout << "Wow! That's a lot of money!" << std::endl;
+    }
+
+    return 0;
+}
