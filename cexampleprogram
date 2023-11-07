@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() 
+{
+    char name[50];
+    char color[20];
+    char movie[50];
+
+    // Prompt for name
+    printf("What is your name? ");
+    scanf("%s", name);
+
+    // Prompt for favorite color
+    printf("What is your favorite color? ");
+    scanf("%s", color);
+
+    // Prompt for favorite movie
+    printf("What is your favorite movie? ");
+    scanf("%s", movie);
+
+    // Print the gathered information
+    printf("\nHello, %s!\n", name);
+    printf("Your favorite color is %s.\n", color);
+    printf("Your favorite movie is %s.\n", movie);
+
+    return 0;
+}
