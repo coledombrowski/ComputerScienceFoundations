@@ -1,0 +1,29 @@
+team1_name = input("Enter the name of the first baseball team: ")
+team2_name = input("Enter the name of the second baseball team: ")
+
+# Initialize scores for both teams
+team1_score = 0
+team2_score = 0
+
+# Input and calculate inning scores
+num_innings = int(input("Enter the number of innings: "))
+
+for inning in range(1, num_innings + 1):
+    inning_team1_score = int(input(f"Enter {team1_name}'s score in inning {inning}: "))
+    inning_team2_score = int(input(f"Enter {team2_name}'s score in inning {inning}: "))
+
+    team1_score += inning_team1_score
+    team2_score += inning_team2_score
+
+# Print the final scores
+print("\nFinal Scores:")
+print(f"{team1_name}: {team1_score}")
+print(f"{team2_name}: {team2_score}")
+
+# Determine the winner
+if team1_score > team2_score:
+    print(f"{team1_name} is the winner!")
+elif team2_score > team1_score:
+    print(f"{team2_name} is the winner!")
+else:
+    print("It's a tie!")
